@@ -94,13 +94,13 @@ const { pageTitle, pageDescription, componentReference } = content || {};
 <div className="container mx-auto flex flex-col items-center gap-3.5 justify-center pb-12" data-aue-type="page"
       data-aue-resource={`urn:aemconnection:${content?._path}/jcr:content/data/master`}>
 <h1
-        data-aue-prop="title"
+        data-aue-prop="pageTitle"
         data-aue-type="text"  
         data-cf-field="title"
         className="text-4xl font-bold text-gray-900"
 
         >{pageTitle}</h1>
-      <p className="text-2xl" data-aue-prop="descrpition" data-aue-type="text" data-aue-label="description"> 
+      <p className="text-2xl" data-aue-prop="pageDescription" data-aue-type="text" data-aue-label="pageDescription"> 
         {pageDescription?.plaintext}
       </p>
         
